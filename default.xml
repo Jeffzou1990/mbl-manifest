@@ -17,6 +17,7 @@
   </project>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
   <project name="armmbed/meta-mbl-distro" path="layers/meta-mbl-distro" remote="github"/>
+  <project name="armmbed/meta-mbl-bsp-common" path="layers/meta-mbl-bsp-common" remote="github"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
   <project name="armmbed/meta-freescale-mbl" path="layers/meta-freescale-mbl" remote="github"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
