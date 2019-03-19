@@ -10,16 +10,24 @@
   <default revision="master" sync-j="4"/>
 
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="3b60f3e31a9aba22bd635d7f0d34fd2304296bdc"/>
+  <project name="armmbed/meta-freescale-3rdparty-mbl" path="layers/meta-freescale-3rdparty-mbl" remote="github"/>
   <project name="armmbed/mbl-config" path="conf" remote="github">
     <linkfile dest="setup-environment" src="setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-environment-internal"/>
   </project>
   <project name="armmbed/meta-mbl" path="layers/meta-mbl" remote="github"/>
+  <project name="armmbed/meta-mbl-distro" path="layers/meta-mbl-distro" remote="github"/>
   <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto"/>
+  <project name="armmbed/meta-freescale-mbl" path="layers/meta-freescale-mbl" remote="github"/>
   <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto"/>
+  <project name="armmbed/meta-raspberrypi-mbl" path="layers/meta-raspberrypi-mbl" remote="github"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
+  <project name="armmbed/meta-virtualization-mbl" path="layers/meta-virtualization-mbl" remote="github"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="7e7f09b731ac8ec09cc87ed058908c8479b8c7ab" upstream="master"/>
+  <project name="armmbed/meta-linaro-mbl" path="layers/meta-linaro-mbl" remote="github"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" revision="f352612e772ec19927278b62da153b3164ba08e8" upstream="master" remote="github"/>
+  <project name="armmbed/meta-openembedded-mbl" path="layers/meta-openembedded-mbl"remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="armmbed/openembedded-core-mbl" path="layers/openembedded-core-mbl" remote="github"/>
 </manifest>
