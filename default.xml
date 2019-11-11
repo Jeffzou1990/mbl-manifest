@@ -10,7 +10,7 @@
 
   <default revision="warrior" sync-j="4"/>
 
-  <project name="STMicroelectronics/meta-st-stm32mp" path="layers/meta-st-stm32mp" remote="github" revision="da422478d38e744283bcf61123c4a526396c7030" upstream="warrior"/>
+  <project name="STMicroelectronics/meta-st-stm32mp" path="layers/meta-st-stm32mp" remote="github" revision="warrior"/>
   <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="da422478d38e744283bcf61123c4a526396c7030" upstream="warrior"/>
   <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
   <project name="armmbed/mbl-config" path="conf" remote="github" revision="mbl-os-0.9"/>
