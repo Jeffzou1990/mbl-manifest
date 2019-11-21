@@ -10,16 +10,13 @@
 
   <default revision="warrior" sync-j="4"/>
 
-  <project name="Jeffzou1990/meta-st-stm32mp" path="layers/meta-st-stm32mp" remote="github" revision="warrior"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" remote="github" revision="da422478d38e744283bcf61123c4a526396c7030" upstream="warrior"/>
-  <project name="imx/meta-fsl-bsp-release" path="layers/meta-fsl-bsp-release" remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25"/>
+  <project name="Jeffzou1990/meta-st-stm32mp" path="layers/meta-st-stm32mp" remote="github" revision="5fc94d107b25cc5fb1f88662a125670e7e42acea" upstream="warrior"/>
+
   <project name="armmbed/mbl-config" path="conf" remote="github" revision="mbl-os-0.9"/>
-  <project name="Jeffzou1990/meta-mbl" path="layers/meta-mbl" remote="github" revision="mbl-os-0.9">
+  <project name="Jeffzou1990/meta-mbl" path="layers/meta-mbl" remote="github" revision="16f0b8f3f4d6ecd5ea37a58c8cb86c8e2c2f2b72" upstream="mbl-os-0.9">
     <linkfile dest="setup-environment" src="setup-env/setup-environment"/>
     <linkfile dest="setup-environment-internal" src="setup-env/setup-environment-internal"/>
   </project>
-  <project name="git/meta-freescale" path="layers/meta-freescale" remote="yocto" revision="2142f7ded1b3115ccc21f7575fd83e2376247193" upstream="warrior"/>
-  <project name="git/meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto" revision="0750d5d2bc9596f35d5d61bb0ff657be4b02bfdc" upstream="warrior"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="e1f24ea8e77f8a3c3266264dd71417c8f9661f89" upstream="warrior"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="164c0df429fc9be771c54c241b17d7afb8849afc" upstream="1.42"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="853e8e05e55e1bce7cef94ad7515e37e9485f745" upstream="warrior"/>
